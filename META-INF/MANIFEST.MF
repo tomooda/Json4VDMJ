@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: vdmj-3.0.1.jar jsonic-1.0.5.jar
+Main-Class: com.github.json4vdmj.Json4VDMJ
