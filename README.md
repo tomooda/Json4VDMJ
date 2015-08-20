@@ -27,3 +27,15 @@ Jon4VDMJ provides a REPL interface. The below is a list of commands.
 * vdm10 ... set the language to the VDM10.
 * +rtc ... enable runtime checking, e.g. dynamic type checking and assertions.
 * -rtc ... disable runtime checking, e.g. dynamic type checking and assertions.
+
+Output
+---
+
+Json4VDMJ responds in the following format:
+
+[&lt;status&gt;, &lt;response body&gt;]
+
+where
+
+* &lt;status&gt; is either "OK" or "ERROR".
+* &lt;response body&gt; is a list of strings for the modules command, a JSON object with keys from variable names and values from their values, otherwise a string.
